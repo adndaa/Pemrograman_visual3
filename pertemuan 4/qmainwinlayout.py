@@ -13,7 +13,7 @@ class MyWindow(QMainWindow):
         layout.addWidget(btn3)
         layout.addWidget(btn4)
         widget = QWidget()
-        widget.setLayout(layout)
+        self.setLayout(layout)
         self.setCentralWidget(widget)
 
 app = QApplication([])

@@ -1,9 +1,9 @@
-from PyQt5.QtWidgets import QMainWindow, QWidget, QApplication, QPushButton, QLabel, QHBoxLayout
+from PyQt5.QtWidgets import QMainWindow, QWidget, QApplication, QPushButton, QLabel, QVBoxLayout
 
 class MyWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        layout = QHBoxLayout()
+        layout = QVBoxLayout()
         btn1 = QPushButton("btn1")
         btn2 = QPushButton("btn2")
         btn3 = QPushButton("btn3")

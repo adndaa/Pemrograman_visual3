@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'D:\Adind\perkuliahan\semester 5\python\pertemuan 4'
+# Form implementation generated from reading ui file 'Latihanqtdesigner.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.11
 #
@@ -17,33 +17,29 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(40, 90, 51, 16))
-        font = QtGui.QFont()
-        font.setPointSize(14)
-        self.label.setFont(font)
-        self.label.setObjectName("label")
+        self.label_1 = QtWidgets.QLabel(self.centralwidget)
+        self.label_1.setGeometry(QtCore.QRect(50, 40, 61, 16))
+        self.label_1.setObjectName("label_1")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(50, 50, 47, 13))
-        font = QtGui.QFont()
-        font.setPointSize(14)
-        self.label_2.setFont(font)
+        self.label_2.setGeometry(QtCore.QRect(50, 70, 61, 16))
         self.label_2.setObjectName("label_2")
-        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
-        self.lineEdit.setGeometry(QtCore.QRect(110, 49, 261, 21))
-        self.lineEdit.setObjectName("lineEdit")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton.setGeometry(QtCore.QRect(110, 140, 91, 31))
+        self.pushButton.setGeometry(QtCore.QRect(120, 100, 71, 17))
+        self.pushButton.setStyleSheet("background-color: rgb(85, 170, 127);")
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_2.setGeometry(QtCore.QRect(220, 140, 91, 31))
+        self.pushButton_2.setGeometry(QtCore.QRect(200, 100, 71, 17))
+        self.pushButton_2.setStyleSheet("background-color: rgb(85, 170, 127);")
         self.pushButton_2.setObjectName("pushButton_2")
+        self.lineEdit = QtWidgets.QLineEdit(self.centralwidget)
+        self.lineEdit.setGeometry(QtCore.QRect(120, 30, 151, 20))
+        self.lineEdit.setObjectName("lineEdit")
         self.lineEdit_2 = QtWidgets.QLineEdit(self.centralwidget)
-        self.lineEdit_2.setGeometry(QtCore.QRect(110, 90, 261, 21))
+        self.lineEdit_2.setGeometry(QtCore.QRect(120, 60, 151, 20))
         self.lineEdit_2.setObjectName("lineEdit_2")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 18))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -56,10 +52,12 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "NAMA"))
-        self.label_2.setText(_translate("MainWindow", "NPM"))
+        self.label_1.setText(_translate("MainWindow", "NIM"))
+        self.label_2.setText(_translate("MainWindow", "NAMA"))
         self.pushButton.setText(_translate("MainWindow", "PushButton"))
         self.pushButton_2.setText(_translate("MainWindow", "PushButton"))
+        self.lineEdit.setText(_translate("MainWindow", "2210010396"))
+        self.lineEdit_2.setText(_translate("MainWindow", "NAZWA AZKIA"))
 
 
 if __name__ == "__main__":
